@@ -1523,8 +1523,8 @@ a {
 
 .catalogs__grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 20px;
 }
 
 .catalog-card {
@@ -1683,9 +1683,6 @@ a {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .catalogs__grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     .contact__inner {
         grid-template-columns: 1fr;
@@ -1758,9 +1755,6 @@ a {
         grid-template-columns: 1fr;
     }
 
-    .catalogs__grid {
-        grid-template-columns: 1fr;
-    }
 
     .form-row {
         grid-template-columns: 1fr;
